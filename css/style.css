@@ -101,7 +101,7 @@ nav li {
 }
 
 nav a {
-    color: #edf2ef;
+    color: #f97068;
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -170,7 +170,8 @@ article h2 {
     text-transform: uppercase;
 }
 
-#slide3 {
+#slide3,
+#slide5 {
     background-color: #f97068;
     font-size: 2rem;
 }
@@ -183,7 +184,8 @@ article h2 {
     align-content: space-around;
 }
 
-.icone {
+.icone,
+.icon {
     flex-basis: 48%;
 }
 
@@ -218,8 +220,12 @@ article h2 {
     height: auto;
 }
 
-#slide5 {
-    background-color: #f97068;
+span a {
+    color: #212738;
+}
+
+footer {
+    color: #f97068;
 }
 
 
@@ -305,6 +311,9 @@ article h2 {
     }
     .icone {
         flex-basis: 30%;
+        padding: 2rem;
+    }
+    .icon {
         padding: 2rem;
     }
     .text {
